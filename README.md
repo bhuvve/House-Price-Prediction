@@ -63,6 +63,8 @@
     <li>However, the RMSE score obtained from Gradient Boosting Regressor was higher compared to the Elastic Net model. <img src="IMG/jpg4.jpg" alt="Visualization 4"></li>
     <li>Thus, considering the data's linear relationship favoring Elastic Net's regularization, the RMSE CV score was found to be better for Elastic Net, indicating its superior performance in this context.</li>
     <li>Hence, opting for the Elastic Net model with the best parameters could be a better choice for making predictions.</li>
+    <p>3. Models' RMSE Scores (Cross-Validated) - Descending Order:</p>
+<img src="IMG/jpg3.jpg" alt="Visualization 3">
   </ul>
 </p>
 
@@ -76,10 +78,7 @@
 <p>2. Performance metrics of Elastic Net model with best parameters (Decreased RMSE):</p>
 <img src="IMG/jpg2.jpg" alt="Visualization 2">
 
-<p>3. Models' RMSE Scores (Cross-Validated) - Descending Order:</p>
-<img src="IMG/jpg3.jpg" alt="Visualization 3">
-
-<p>5. ouse Prices vs RMSE :</p>
+<p>5. House Prices vs RMSE :</p>
 <img src="IMG/jpg5.jpg" alt="Visualization 5">
 
 <h2>File Structure</h2>
