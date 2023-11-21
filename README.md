@@ -1,45 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-    }
-    h1 {
-      font-family: 'Times New Roman', Times, serif;
-      color: #2e6da4;
-      border-bottom: 2px solid #2e6da4;
-      padding-bottom: 5px;
-    }
-    h2 {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #4cae4c;
-    }
-    h3 {
-      font-family: 'Arial Black', Gadget, sans-serif;
-      color: #d9534f;
-    }
-    p {
-      font-size: 16px;
-    }
-    ul {
-      list-style-type: circle;
-    }
-    pre {
-      background-color: #f5f5f5;
-      padding: 10px;
-      border-radius: 5px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 20px 0;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    }
-  </style>
+
 </head>
 <body>
 
