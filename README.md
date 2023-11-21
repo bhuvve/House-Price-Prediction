@@ -1,6 +1,8 @@
 <body>
 <h1><img src="IMG/logo.png" alt="House Logo" height="50"> House Sale Price Prediction <a href="http://15.206.170.241:8501/" target="_blank">http://15.206.170.241:8501/</a> </h1>
 
+<h2>Accuracy (R2 Score) of Model: 0.84</h2>
+
 <h2>Data Preprocessing</h2>
 <p>
   This project focuses on predicting house sale prices. Below are the steps taken for data preprocessing:
