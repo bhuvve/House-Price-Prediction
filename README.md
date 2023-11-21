@@ -54,13 +54,13 @@
 <p> RUN THE MODEL USING CMD "streamlit run app.py"
 </p>
 <p>
-  Assumptions:
+  <h2>Assumptions:</h2>
   <ul>
     <li>I have assumed that the data is prone to overfitting, leading to high RMSE scores.</li>
     <li>To validate this assumption, I conducted checks for underfitting and overfitting.</li>
     <li>Upon analysis, I found the model to be underfitting.</li>
     <li>Therefore, I applied Gradient Boost Regressor to address this issue.</li>
-    <li>However, the RMSE score obtained from Gradient Boosting Regressor was higher compared to the Elastic Net model.</li>
+    <li>However, the RMSE score obtained from Gradient Boosting Regressor was higher compared to the Elastic Net model. <img src="IMG/jpg4.jpg" alt="Visualization 4"></li>
     <li>Thus, considering the data's linear relationship favoring Elastic Net's regularization, the RMSE CV score was found to be better for Elastic Net, indicating its superior performance in this context.</li>
     <li>Hence, opting for the Elastic Net model with the best parameters could be a better choice for making predictions.</li>
   </ul>
@@ -79,10 +79,7 @@
 <p>3. Models' RMSE Scores (Cross-Validated) - Descending Order:</p>
 <img src="IMG/jpg3.jpg" alt="Visualization 3">
 
-<p>4. Comparison of Elastic Net and Gradient Boosting Regressor:</p>
-<img src="IMG/jpg4.jpg" alt="Visualization 4">
-
-<p>5. Underfitting and Overfitting Checks:</p>
+<p>5. ouse Prices vs RMSE :</p>
 <img src="IMG/jpg5.jpg" alt="Visualization 5">
 
 <h2>File Structure</h2>
