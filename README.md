@@ -1,3 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      font-family: 'Times New Roman', Times, serif;
+      color: #2e6da4;
+      border-bottom: 2px solid #2e6da4;
+      padding-bottom: 5px;
+    }
+    h2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #4cae4c;
+    }
+    h3 {
+      font-family: 'Arial Black', Gadget, sans-serif;
+      color: #d9534f;
+    }
+    p {
+      font-size: 16px;
+    }
+    ul {
+      list-style-type: circle;
+    }
+    pre {
+      background-color: #f5f5f5;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px 0;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
 <body>
 
 <h1><img src="IMG/logo.png" alt="House Logo" height="50"> House Sale Price Prediction</h1>
@@ -37,68 +80,8 @@
 <p>
   In the <code>Task 2_Regression.ipynb</code> file within the "Code" folder, regression models were implemented, and metrics such as MAE, MSE, RMSE, R2 Score, and RMSE (Cross-Validation) were evaluated.
 </p>
-<h3>Step 2: Model Evaluation</h3>
-<p>
-  Various regression models like Linear Regression, Ridge Regression, Lasso Regression, Elastic Net, Support Vector Machines, Random Forest Regressor, XGBoost Regressor were compared based on their performance metrics. See the image 'jpg1' in the "IMG" folder.
-</p>
 
-<h3>Step 3: Model Deployment using Streamlit</h3>
-<p>
-  The selected Elastic Net model with the best parameters was used to create a <code>`model.pkl` </code> file. Additionally, an <code> `app.py` </code>code> file was created for deployment using Streamlit.
-</p>
-<p> RUN THE MODEL USING CMD <code>"streamlit run app.py"</code>code>
-</p>
+<!-- Rest of your content -->
 
-<h2>Assumptions:</h2>
-<ul>
-  <li>I have assumed that the data is prone to overfitting, leading to high RMSE scores.</li>
-  <li>To validate this assumption, I conducted checks for underfitting and overfitting.</li>
-  <li>Upon analysis, I found the model to be underfitting.</li>
-  <li>Therefore, I applied Gradient Boost Regressor to address this issue.</li>
-  <li>However, the RMSE score obtained from <code>Gradient Boosting Regressor</code> was higher compared to the Elastic Net model. <img src="IMG/jpg4.jpg" alt="Visualization 4"></li>
-  <li>Thus, considering the data's linear relationship favoring Elastic Net's regularization, the RMSE CV score was found to be better for Elastic Net, indicating its superior performance in this context.</li>
-  <img src="IMG/jpg3.jpg" alt="Visualization 3">
-  <li>Hence, opting for the Elastic Net model with the best parameters could be a better choice for making predictions.</li>
-</ul>
-
-<h2>Visualizations</h2>
-<p>Here are some visualizations from the project:</p>
-
-<p>1. Comparison of House Prices and RMSE Cross-Validation score with Elastic Net best params:</p>
-<img src="IMG/jpg1.jpg" alt="Visualization 1">
-
-<p>2. Performance metrics of Elastic Net model with best parameters (Decreased RMSE):</p>
-<img src="IMG/jpg2.jpg" alt="Visualization 2">
-
-<p>3. House Prices vs RMSE :</p>
-<img src="IMG/jpg5.jpg" alt="Visualization 5">
-
-<h2>File Structure</h2>
-
-<pre>
-- Code
-  - Task 1_Preprocessing.ipynb
-  - Task 2_Regression.ipynb
-  - app.py
-- DATA
-  - sample_dataset.csv
-  - preprocessed_data.csv
-  - X.npy
-  - y.npy
-  - X_test.npy
-  - X_train.npy
-  - y_test.npy
-  - y_train.npy
-- IMG
-  - jpg1
-  - jpg2
-  - jpg3
-  - jpg4
-  - jpg5
-</pre>
-
-<p>
-  This README provides an overview of the steps involved in the House Sale Price Prediction project, including data preprocessing, regression model training, evaluation, and deployment using Streamlit.
-</p>
 </body>
-
+</html>
