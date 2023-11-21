@@ -44,7 +44,7 @@
 
 <h3>Step 3: Model Deployment using Streamlit</h3>
 <p>
-  The selected Elastic Net model with the best parameters was used to create a <code>`model.pkl` </code>code>file. Additionally, an <code> `app.py` </code>code> file was created for deployment using Streamlit.
+  The selected Elastic Net model with the best parameters was used to create a <code>`model.pkl` </code> file. Additionally, an <code> `app.py` </code>code> file was created for deployment using Streamlit.
 </p>
 <p> RUN THE MODEL USING CMD <code>"streamlit run app.py"</code>code>
 </p>
