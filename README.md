@@ -39,7 +39,7 @@
 
 <h3>Step 1: Regression Models and Metrics</h3>
 <p>
-  In the `Task 2_Regression.ipynb` file within the "Code" folder, regression models were implemented and metrics such as MAE, MSE, RMSE, R2 Score, and RMSE (Cross-Validation) were evaluated.
+  In the `Task 2_Regression.ipynb` file within the "Code" folder, regression models were implemented, and metrics such as MAE, MSE, RMSE, R2 Score, and RMSE (Cross-Validation) were evaluated.
 </p>
 
 <h3>Step 2: Model Evaluation</h3>
@@ -47,14 +47,25 @@
   Various regression models like Linear Regression, Ridge Regression, Lasso Regression, Elastic Net, Support Vector Machines, Random Forest Regressor, XGBoost Regressor were compared based on their performance metrics. See the image 'jpg1' in the "IMG" folder.
 </p>
 
-<!-- Add additional steps like ElasticNet model selection, model comparison images, underfitting, overfitting checks, etc. -->
-
 <h3>Step 3: Model Deployment using Streamlit</h3>
 <p>
   The selected Elastic Net model with the best parameters was used to create a `model.pkl` file. Additionally, an `app.py` file was created for deployment using Streamlit.
 </p>
 <p> RUN THE MODEL USING CMD "streamlit run app.py"
 </p>
+<p>
+  Assumptions:
+  <ul>
+    <li>I have assumed that the data is prone to overfitting, leading to high RMSE scores.</li>
+    <li>To validate this assumption, I conducted checks for underfitting and overfitting.</li>
+    <li>Upon analysis, I found the model to be underfitting.</li>
+    <li>Therefore, I applied Gradient Boost Regressor to address this issue.</li>
+    <li>However, the RMSE score obtained from Gradient Boosting Regressor was higher compared to the Elastic Net model.</li>
+    <li>Thus, considering the data's linear relationship favoring Elastic Net's regularization, the RMSE CV score was found to be better for Elastic Net, indicating its superior performance in this context.</li>
+    <li>Hence, opting for the Elastic Net model with the best parameters could be a better choice for making predictions.</li>
+  </ul>
+</p>
+
 
 <h2>Visualizations</h2>
 <p>Here are some visualizations from the project:</p>
@@ -73,7 +84,6 @@
 
 <p>5. Underfitting and Overfitting Checks:</p>
 <img src="IMG/jpg5.jpg" alt="Visualization 5">
-
 
 <h2>File Structure</h2>
 
@@ -102,6 +112,5 @@
 <p>
   This README provides an overview of the steps involved in the House Sale Price Prediction project, including data preprocessing, regression model training, evaluation, and deployment using Streamlit.
 </p>
-
 </body>
 </html>
