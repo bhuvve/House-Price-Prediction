@@ -1,51 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    /* Define custom CSS styles for the README */
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f4f4f4;
-      color: #333;
-      padding: 20px;
-    }
-    
-    h1 {
-      font-size: 36px;
-      text-align: center;
-      color: #4682b4;
-      border-bottom: 2px solid #4682b4;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
-    }
-    
-    h2 {
-      font-size: 28px;
-      color: #2e8b57;
-      margin-top: 30px;
-      margin-bottom: 15px;
-    }
-    
-    p {
-      font-size: 16px;
-      margin-bottom: 15px;
-    }
-    
-    pre {
-      background-color: #f0f0f0;
-      padding: 10px;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-  </style>
 </head>
 <body>
 
 <h1><img src="IMG/logo.png" alt="House Logo" height="50"> House Sale Price Prediction</h1>
 
 <h2>Data Preprocessing</h2>
-<!-- Existing preprocessing content here -->
+<p>
+  This project focuses on predicting house sale prices. Below are the steps taken for data preprocessing:
+</p>
+
+<h3>Step 1: Installation of Required Libraries</h3>
+<p>
+  The initial step involves installing necessary libraries from the `requirements.txt` file.
+</p>
+
+<h3>Step 2: Data Cleaning</h3>
+<p>
+  The dataset stored in the "DATA" folder as `sample_dataset.csv` underwent thorough cleaning. Steps included outlier removal, handling duplicate entries, and eliminating unwanted columns.
+</p>
+
+<h3>Step 3: Preprocessed Data</h3>
+<p>
+  Post-cleaning, the preprocessed data was saved as `preprocessed_data.csv` in the "DATA" folder.
+</p>
+
+<h3>Step 4: Data Splitting</h3>
+<p>
+  The dataset was split into training and testing sets (X_train, y_train, X_test, y_test), which were stored in NumPy data format in the "DATA" folder.
+</p>
+
 
 <h2>Regression Model Training</h2>
 <p>
