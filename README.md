@@ -1,5 +1,5 @@
 <body>
-<h1><img src="IMG/logo.png" alt="House Logo" height="50"> House Sale Price Prediction</h1>
+<h1><img src="IMG/logo.png" alt="House Logo" height="50"> House Sale Price Prediction <a href="http://15.206.170.241:8501/" target="_blank">http://15.206.170.241:8501/</a> </h1>
 
 <h2>Data Preprocessing</h2>
 <p>
@@ -26,7 +26,7 @@
   The dataset was split into training and testing sets (<code>X_train</code>, <code>y_train</code>, <code>X_test</code>, <code>y_test</code>), which were stored in NumPy data format in the "DATA" folder.
 </p>
  <p>
-### **Feature Engineering**
+<h3>### **Feature Engineering**</h3>
 - ***A new feature, <code>'price_for_Squarefit'</code>, has been engineered, adding valuable information to the dataset. This new feature is highly relevant as it provides insights into the pricing based on square footage. Including this feature contributes significantly to addressing underfitting, enhancing the model's ability to capture the complexity of pricing dynamics.***
 </p>
 
@@ -42,11 +42,15 @@
 </p>
 <h3>Step 2: Model Evaluation</h3>
 <p>
-  Various regression models like Linear Regression, Ridge Regression, Lasso Regression, Elastic Net, Support Vector Machines, Random Forest Regressor, XGBoost Regressor were compared based on their performance metrics. See the image '1" in the "IMG" folder.
+  Various regression models like Linear Regression, Ridge Regression, Lasso Regression, Elastic Net, Support Vector Machines, Random Forest Regressor, XGBoost Regressor were compared based on their performance metrics.
+</p>
   <img src="IMG/1.png" alt="Performance Metrics Comparison" height="400">
+  <p>
   From the graphs and numerical evaluations, the <code>RandomForest Regressor</code> shows superior performance, displaying a <code>high R2 score and low RMSE</code>, indicating its predictive capability.
   Subsequently, Hyperparameter Tuning was implemented for the RandomForest Regressor.
+  </p>
   <img src="IMG/1.png" alt="Performance Metrics Comparison" height="400">
+  <p>
    However, the selected hyperparameters did not suit the dataset, resulting in a decrease in performance metrics such as <code>R2 score and RMSE</code>.
 </p>
 
@@ -65,6 +69,10 @@
 </p>
 <p>To run the model, use the command: <code>streamlit run app.py</code></p>
 <p>A Docker file was created and hosted on AWS.</p>
+<h3>Hosted Model</h3>
+<p>
+  The model is hosted at: <a href="http://15.206.170.241:8501/" target="_blank">http://15.206.170.241:8501/</a>
+</p>
 
 <h2>File Structure</h2>
 <pre>
