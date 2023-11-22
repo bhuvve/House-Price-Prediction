@@ -51,7 +51,7 @@
   From the graphs and numerical evaluations, the <code>RandomForest Regressor</code> shows superior performance, displaying a <code>high R2 score and low RMSE</code>, indicating its predictive capability.
   Subsequently, Hyperparameter Tuning was implemented for the RandomForest Regressor.
   </p>
-  <img src="IMG/1.png" alt="Performance Metrics Comparison" height="400">
+  <img src="IMG/2.png" alt="Performance Metrics Comparison" height="400">
   <p>
    However, the selected hyperparameters did not suit the dataset, resulting in a decrease in performance metrics such as <code>R2 score and RMSE</code>.
 </p>
